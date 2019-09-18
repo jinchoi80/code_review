@@ -7,9 +7,9 @@ class templatePriorityQueue {
 	public:
 		templatePriorityQueue();
 		~templatePriorityQueue();
-		bool empty() const;
-		const T& top() const;
-		int size();
+		bool IsEmpty() const;
+		const T& GetTop() const;
+		int GetSize();
 		void push(const T&);
 		void pop();	
 };

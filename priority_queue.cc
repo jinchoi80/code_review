@@ -9,17 +9,17 @@ templatePriorityQueue<int>::~templatePriorityQueue(){
 }
 
 template <>
-bool templatePriorityQueue<int>::empty() const{
+bool templatePriorityQueue<int>::IsEmpty() const{
         return storage.empty();
 }
 
 template <>
-int templatePriorityQueue<int>::size() {
+int templatePriorityQueue<int>::GetSize() {
         return storage.size();
 }
 
 template <>
-const int& templatePriorityQueue<int>::top() const{
+const int& templatePriorityQueue<int>::GetTop() const{
         return storage.top();
 }
 
